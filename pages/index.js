@@ -2,8 +2,8 @@ import React from "react";
 import HeadComponent from '../components/Head';
 
 // Constants
-const TWITTER_HANDLE = "_web3dev";
-const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
+const PROFILE_HANDLE = "Wagner Bittencourt";
+const PROFILE_LINK = "https://wsbittencourt.github.io/";
 
 const App = () => {
   
@@ -13,22 +13,26 @@ const App = () => {
       <HeadComponent/>
       <div className="container">
         <header className="header-container">
-          <p className="header"> 😳 Loja de emojis 😈</p>
-          <p className="sub-text">A única loja de emojis que aceita shitcoins</p>
+          <p className="header"> Workshops de Dança 💃🏽</p>
+          <p className="sub-text">Adquira treinamentos de Bellydance ou Fusion Bellydance, através de seus cryptos.</p>
         </header>
 
         <main>
-          <img className='gif-image' src="https://media.tenor.com/1mJ-tJSzvwsAAAAd/solana-sol.gif" alt="emoji" />
+          <div className='video'>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/eV7lpOkzkww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
         </main>
 
         <div className="footer-container">
-          <img alt="Twitter Logo" className="twitter-logo" src="twitter-logo.svg" />
           <a
             className="footer-text"
-            href={TWITTER_LINK}
+            href={PROFILE_LINK}
             target="_blank"
             rel="noreferrer"
-          >{`contruido na @${TWITTER_HANDLE}`}</a>
+          >
+            <img className="github-logo" src="github-mark-white.png" />
+            {`construido por ${PROFILE_HANDLE}`}
+          </a>
         </div>
       </div>
     </div>

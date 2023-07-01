@@ -1,13 +1,13 @@
 .App {
   height: 100vh;
-  background-color: rgb(20, 20, 20);
+  /* background-color: rgb(20, 20, 20); */
+  background-color: #5835e6;
   text-align: center;
   overflow: hidden;
 }
 
-.gif-image {
-  max-width: 300px;
-  max-height: 300px;
+.video {
+  
  }
  
 .container {
@@ -100,15 +100,17 @@ button:disabled {
   padding-bottom: 20px;
 }
 
-.twitter-logo {
-  width: 35px;
-  height: 35px;
+.github-logo {
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
 }
 
 .footer-text {
   font-size: 16px;
   font-weight: bold;
   color: white;
+  display:flex;
 }
 
 .connected-container input[type='text'] {
