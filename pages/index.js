@@ -51,7 +51,7 @@ const App = () => {
           <p className="sub-text">Adquira treinamentos de Bellydance ou Fusion Bellydance, através de seus cryptos.</p>
           {isOwner && (
             <button className="create-product-button" onClick={() => setCreating(!creating)}>
-              {creating ? "Close" : "Criar Produto"}
+              {creating ? "Fechar" : "Criar Produto"}
             </button>
           )}
         </header>
