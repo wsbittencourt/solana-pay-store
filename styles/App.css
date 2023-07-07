@@ -58,7 +58,7 @@
 
 .gallery {
   height: calc(100vh - 30%);
-  overflow-y: scroll;
+  overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: #141414 #dddddd;
 }
