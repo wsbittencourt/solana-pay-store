@@ -56,7 +56,7 @@ const App = () => {
           )}
         </header>
 
-        <main className="gallery">
+        <main className={publicKey && 'gallery'}>
           {creating && <CreateProduct />}
           {publicKey ? renderItemBuyContainer() : renderNotConnectedContainer()}
         </main>

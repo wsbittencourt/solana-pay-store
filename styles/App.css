@@ -7,7 +7,7 @@
 }
 
 .video {
-  
+   margin-bottom: 100px;
  }
  
 .container {
@@ -59,6 +59,12 @@
 .gallery {
   height: calc(100vh - 30%);
   overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #141414 #dddddd;
+}
+
+.gallery ::-webkit-scrollbar {
+  border-radius: 5px;
 }
 
 .cta-button {
@@ -122,6 +128,12 @@ button:disabled {
   font-weight: bold;
   color: white;
   display:flex;
+
+  transition: all 0.8s;
+}
+
+.footer-text:hover {
+  color: #141414;
 }
 
 .connected-container input[type='text'] {
